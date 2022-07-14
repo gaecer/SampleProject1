@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74198EB72590FB8500E2724E /* PirateShipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198EB62590FB8500E2724E /* PirateShipModel.swift */; };
+		74198EBE259102EA00E2724E /* PirateShipsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198EBD259102EA00E2724E /* PirateShipsListViewModel.swift */; };
+		74198EC22591039500E2724E /* PirateShipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198EC12591039500E2724E /* PirateShipService.swift */; };
+		74198ECE25922DF100E2724E /* PirateShipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198ECC25922DF100E2724E /* PirateShipCell.swift */; };
+		74198ECF25922DF100E2724E /* PirateShipsListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198ECD25922DF100E2724E /* PirateShipsListHeader.swift */; };
+		74198ED4259232EC00E2724E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198ED3259232EC00E2724E /* UIColor.swift */; };
+		74198ED82592330D00E2724E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198ED72592330D00E2724E /* UIView.swift */; };
+		74198EDD25937ED300E2724E /* StrechHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198EDC25937ED300E2724E /* StrechHeaderLayout.swift */; };
+		74198EE52593D33F00E2724E /* PirateShipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198EE42593D33F00E2724E /* PirateShipViewModel.swift */; };
+		74198EF72593D9A600E2724E /* NetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74198EF62593D9A600E2724E /* NetworkFramework.framework */; };
+		74198EF82593D9A600E2724E /* NetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74198EF62593D9A600E2724E /* NetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74198F142594C05700E2724E /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198F132594C05700E2724E /* Int.swift */; };
+		74198F2A2599007F00E2724E /* ImageTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198F292599007F00E2724E /* ImageTableViewCellModel.swift */; };
+		74198F36259927ED00E2724E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198F35259927ED00E2724E /* String.swift */; };
+		74198F3A25994A6100E2724E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198F3925994A6100E2724E /* UIFont.swift */; };
+		74198F4D259A0BA800E2724E /* TestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198F47259A0A6900E2724E /* TestUtility.swift */; };
+		743CF2F7258CEDE700C7CBCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 743CF2F6258CEDE700C7CBCC /* README.md */; };
+		743CF315258D1F7E00C7CBCC /* Ships.json in Resources */ = {isa = PBXBuildFile; fileRef = 743CF314258D1F7E00C7CBCC /* Ships.json */; };
+		743CF31E2590BD3B00C7CBCC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CF31D2590BD3B00C7CBCC /* Coordinator.swift */; };
+		743CF3232590C15700C7CBCC /* PirateShipDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CF3222590C15700C7CBCC /* PirateShipDetail.swift */; };
+		746AD4B2259B964C00DA3069 /* PirateShipDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD4B1259B964C00DA3069 /* PirateShipDetailTests.swift */; };
+		746AD4C4259CF79100DA3069 /* MockPirateShipsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD4C3259CF79100DA3069 /* MockPirateShipsListViewModel.swift */; };
+		747C2DC2259D3524001801F9 /* MockPirateShipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C2DC1259D3524001801F9 /* MockPirateShipViewModel.swift */; };
+		747C2DCA259D6A40001801F9 /* GreetingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C2DC9259D6A40001801F9 /* GreetingType.swift */; };
+		74BFAA9F258CCFBB005151FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFAA9E258CCFBB005151FC /* AppDelegate.swift */; };
+		74BFAAA1258CCFBB005151FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFAAA0258CCFBB005151FC /* SceneDelegate.swift */; };
+		74BFAAA3258CCFBB005151FC /* PirateShipsListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFAAA2258CCFBB005151FC /* PirateShipsListCollectionViewController.swift */; };
+		74BFAAA8258CCFBD005151FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BFAAA7258CCFBD005151FC /* Assets.xcassets */; };
+		74BFAAAB258CCFBD005151FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BFAAA9258CCFBD005151FC /* LaunchScreen.storyboard */; };
+		74BFAAB6258CCFBD005151FC /* PirateShipViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFAAB5258CCFBD005151FC /* PirateShipViewModelTests.swift */; };
+		74BFAAC1258CCFBD005151FC /* PirateShipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFAAC0258CCFBD005151FC /* PirateShipsUITests.swift */; };
+		74F0DF61259A59B8003CAF91 /* PirateShipsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DF60259A59B8003CAF91 /* PirateShipsListViewModelTests.swift */; };
+		74F0DF6B259A6176003CAF91 /* MockPirateShipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DF6A259A6176003CAF91 /* MockPirateShipService.swift */; };
+		74F0DF6F259A6268003CAF91 /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DF6E259A6268003CAF91 /* MockCoordinator.swift */; };
+		74F0DF7B259A9782003CAF91 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DF7A259A9782003CAF91 /* StringTest.swift */; };
+		74F0DF81259A9C39003CAF91 /* IntTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DF80259A9C39003CAF91 /* IntTest.swift */; };
+		74F0DF86259AA09A003CAF91 /* PirateShipModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DF85259AA09A003CAF91 /* PirateShipModelTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74BFAAB2258CCFBD005151FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74BFAA93258CCFBB005151FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74BFAA9A258CCFBB005151FC;
+			remoteInfo = PirateShips;
+		};
+		74BFAABD258CCFBD005151FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74BFAA93258CCFBB005151FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74BFAA9A258CCFBB005151FC;
+			remoteInfo = PirateShips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		74198EA42590F24200E2724E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				74198EF82593D9A600E2724E /* NetworkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74198EB62590FB8500E2724E /* PirateShipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipModel.swift; sourceTree = "<group>"; };
+		74198EBD259102EA00E2724E /* PirateShipsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipsListViewModel.swift; sourceTree = "<group>"; };
+		74198EC12591039500E2724E /* PirateShipService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipService.swift; sourceTree = "<group>"; };
+		74198ECC25922DF100E2724E /* PirateShipCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PirateShipCell.swift; sourceTree = "<group>"; };
+		74198ECD25922DF100E2724E /* PirateShipsListHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PirateShipsListHeader.swift; sourceTree = "<group>"; };
+		74198ED3259232EC00E2724E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		74198ED72592330D00E2724E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		74198EDC25937ED300E2724E /* StrechHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrechHeaderLayout.swift; sourceTree = "<group>"; };
+		74198EE42593D33F00E2724E /* PirateShipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipViewModel.swift; sourceTree = "<group>"; };
+		74198EF62593D9A600E2724E /* NetworkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74198F132594C05700E2724E /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		74198F292599007F00E2724E /* ImageTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCellModel.swift; sourceTree = "<group>"; };
+		74198F35259927ED00E2724E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		74198F3925994A6100E2724E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		74198F47259A0A6900E2724E /* TestUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtility.swift; sourceTree = "<group>"; };
+		743CF2F6258CEDE700C7CBCC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		743CF314258D1F7E00C7CBCC /* Ships.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Ships.json; sourceTree = "<group>"; };
+		743CF31D2590BD3B00C7CBCC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		743CF3222590C15700C7CBCC /* PirateShipDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PirateShipDetail.swift; sourceTree = "<group>"; };
+		746AD4B1259B964C00DA3069 /* PirateShipDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipDetailTests.swift; sourceTree = "<group>"; };
+		746AD4C3259CF79100DA3069 /* MockPirateShipsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPirateShipsListViewModel.swift; sourceTree = "<group>"; };
+		747C2DC1259D3524001801F9 /* MockPirateShipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPirateShipViewModel.swift; sourceTree = "<group>"; };
+		747C2DC9259D6A40001801F9 /* GreetingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingType.swift; sourceTree = "<group>"; };
+		74BFAA9B258CCFBB005151FC /* PirateShips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateShips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BFAA9E258CCFBB005151FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74BFAAA0258CCFBB005151FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74BFAAA2258CCFBB005151FC /* PirateShipsListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipsListCollectionViewController.swift; sourceTree = "<group>"; };
+		74BFAAA7258CCFBD005151FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74BFAAAA258CCFBD005151FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74BFAAAC258CCFBD005151FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BFAAB1258CCFBD005151FC /* PirateShipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateShipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BFAAB5258CCFBD005151FC /* PirateShipViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipViewModelTests.swift; sourceTree = "<group>"; };
+		74BFAAB7258CCFBD005151FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BFAABC258CCFBD005151FC /* PirateShipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateShipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BFAAC0258CCFBD005151FC /* PirateShipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipsUITests.swift; sourceTree = "<group>"; };
+		74BFAAC2258CCFBD005151FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F0DF60259A59B8003CAF91 /* PirateShipsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipsListViewModelTests.swift; sourceTree = "<group>"; };
+		74F0DF6A259A6176003CAF91 /* MockPirateShipService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPirateShipService.swift; sourceTree = "<group>"; };
+		74F0DF6E259A6268003CAF91 /* MockCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoordinator.swift; sourceTree = "<group>"; };
+		74F0DF7A259A9782003CAF91 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
+		74F0DF80259A9C39003CAF91 /* IntTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTest.swift; sourceTree = "<group>"; };
+		74F0DF85259AA09A003CAF91 /* PirateShipModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipModelTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74BFAA98258CCFBB005151FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74198EF72593D9A600E2724E /* NetworkFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFAAAE258CCFBD005151FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFAAB9258CCFBD005151FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74198EA02590F24100E2724E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74198EF62593D9A600E2724E /* NetworkFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74198EBC259102B600E2724E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74198EBD259102EA00E2724E /* PirateShipsListViewModel.swift */,
+				74198EE42593D33F00E2724E /* PirateShipViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74198ED2259232C800E2724E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74198ED3259232EC00E2724E /* UIColor.swift */,
+				74198ED72592330D00E2724E /* UIView.swift */,
+				74198F132594C05700E2724E /* Int.swift */,
+				74198F35259927ED00E2724E /* String.swift */,
+				74198F3925994A6100E2724E /* UIFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74198EDB25937EB200E2724E /* Generic UIs */ = {
+			isa = PBXGroup;
+			children = (
+				74198EDC25937ED300E2724E /* StrechHeaderLayout.swift */,
+			);
+			path = "Generic UIs";
+			sourceTree = "<group>";
+		};
+		74198F52259A0CAC00E2724E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DF6A259A6176003CAF91 /* MockPirateShipService.swift */,
+				74F0DF6E259A6268003CAF91 /* MockCoordinator.swift */,
+				746AD4C3259CF79100DA3069 /* MockPirateShipsListViewModel.swift */,
+				747C2DC1259D3524001801F9 /* MockPirateShipViewModel.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		743CF2FC258CEF7500C7CBCC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74198ECC25922DF100E2724E /* PirateShipCell.swift */,
+				74198ECD25922DF100E2724E /* PirateShipsListHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		743CF2FF258CEFD300C7CBCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				743CF2FC258CEF7500C7CBCC /* Cells */,
+				743CF3222590C15700C7CBCC /* PirateShipDetail.swift */,
+				74BFAAA2258CCFBB005151FC /* PirateShipsListCollectionViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743CF300258CEFE900C7CBCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				743CF314258D1F7E00C7CBCC /* Ships.json */,
+				74198EB62590FB8500E2724E /* PirateShipModel.swift */,
+				74198F292599007F00E2724E /* ImageTableViewCellModel.swift */,
+				747C2DC9259D6A40001801F9 /* GreetingType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		743CF301258CEFF400C7CBCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74BFAAA7258CCFBD005151FC /* Assets.xcassets */,
+				74BFAAA9258CCFBD005151FC /* LaunchScreen.storyboard */,
+				74BFAAAC258CCFBD005151FC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		743CF3192590BCA600C7CBCC /* Common Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74BFAA9E258CCFBB005151FC /* AppDelegate.swift */,
+				74BFAAA0258CCFBB005151FC /* SceneDelegate.swift */,
+				743CF31D2590BD3B00C7CBCC /* Coordinator.swift */,
+				74198EC12591039500E2724E /* PirateShipService.swift */,
+			);
+			path = "Common Classes";
+			sourceTree = "<group>";
+		};
+		746AD4B0259B963000DA3069 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				746AD4B1259B964C00DA3069 /* PirateShipDetailTests.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74BFAA92258CCFBB005151FC = {
+			isa = PBXGroup;
+			children = (
+				743CF2F6258CEDE700C7CBCC /* README.md */,
+				74BFAA9D258CCFBB005151FC /* PirateShips */,
+				74BFAAB4258CCFBD005151FC /* PirateShipsTests */,
+				74BFAABF258CCFBD005151FC /* PirateShipsUITests */,
+				74BFAA9C258CCFBB005151FC /* Products */,
+				74198EA02590F24100E2724E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74BFAA9C258CCFBB005151FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74BFAA9B258CCFBB005151FC /* PirateShips.app */,
+				74BFAAB1258CCFBD005151FC /* PirateShipsTests.xctest */,
+				74BFAABC258CCFBD005151FC /* PirateShipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74BFAA9D258CCFBB005151FC /* PirateShips */ = {
+			isa = PBXGroup;
+			children = (
+				743CF3192590BCA600C7CBCC /* Common Classes */,
+				74198ED2259232C800E2724E /* Extensions */,
+				74198EDB25937EB200E2724E /* Generic UIs */,
+				743CF300258CEFE900C7CBCC /* Models */,
+				743CF301258CEFF400C7CBCC /* Resources */,
+				74198EBC259102B600E2724E /* ViewModels */,
+				743CF2FF258CEFD300C7CBCC /* Views */,
+			);
+			path = PirateShips;
+			sourceTree = "<group>";
+		};
+		74BFAAB4258CCFBD005151FC /* PirateShipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DF78259A973B003CAF91 /* Extensions */,
+				74198F52259A0CAC00E2724E /* Mocks */,
+				74F0DF84259AA05B003CAF91 /* Models */,
+				74F0DF79259A974B003CAF91 /* ViewModels */,
+				746AD4B0259B963000DA3069 /* Views */,
+				74198F47259A0A6900E2724E /* TestUtility.swift */,
+				74BFAAB7258CCFBD005151FC /* Info.plist */,
+			);
+			path = PirateShipsTests;
+			sourceTree = "<group>";
+		};
+		74BFAABF258CCFBD005151FC /* PirateShipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74BFAAC0258CCFBD005151FC /* PirateShipsUITests.swift */,
+				74BFAAC2258CCFBD005151FC /* Info.plist */,
+			);
+			path = PirateShipsUITests;
+			sourceTree = "<group>";
+		};
+		74F0DF78259A973B003CAF91 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DF7A259A9782003CAF91 /* StringTest.swift */,
+				74F0DF80259A9C39003CAF91 /* IntTest.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74F0DF79259A974B003CAF91 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74BFAAB5258CCFBD005151FC /* PirateShipViewModelTests.swift */,
+				74F0DF60259A59B8003CAF91 /* PirateShipsListViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74F0DF84259AA05B003CAF91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DF85259AA09A003CAF91 /* PirateShipModelTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74BFAA9A258CCFBB005151FC /* PirateShips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BFAAC5258CCFBD005151FC /* Build configuration list for PBXNativeTarget "PirateShips" */;
+			buildPhases = (
+				74BFAA97258CCFBB005151FC /* Sources */,
+				74BFAA98258CCFBB005151FC /* Frameworks */,
+				74BFAA99258CCFBB005151FC /* Resources */,
+				74198EA42590F24200E2724E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PirateShips;
+			productName = PirateShips;
+			productReference = 74BFAA9B258CCFBB005151FC /* PirateShips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74BFAAB0258CCFBD005151FC /* PirateShipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BFAAC8258CCFBD005151FC /* Build configuration list for PBXNativeTarget "PirateShipsTests" */;
+			buildPhases = (
+				74BFAAAD258CCFBD005151FC /* Sources */,
+				74BFAAAE258CCFBD005151FC /* Frameworks */,
+				74BFAAAF258CCFBD005151FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74BFAAB3258CCFBD005151FC /* PBXTargetDependency */,
+			);
+			name = PirateShipsTests;
+			productName = PirateShipsTests;
+			productReference = 74BFAAB1258CCFBD005151FC /* PirateShipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74BFAABB258CCFBD005151FC /* PirateShipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BFAACB258CCFBD005151FC /* Build configuration list for PBXNativeTarget "PirateShipsUITests" */;
+			buildPhases = (
+				74BFAAB8258CCFBD005151FC /* Sources */,
+				74BFAAB9258CCFBD005151FC /* Frameworks */,
+				74BFAABA258CCFBD005151FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74BFAABE258CCFBD005151FC /* PBXTargetDependency */,
+			);
+			name = PirateShipsUITests;
+			productName = PirateShipsUITests;
+			productReference = 74BFAABC258CCFBD005151FC /* PirateShipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74BFAA93258CCFBB005151FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					74BFAA9A258CCFBB005151FC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					74BFAAB0258CCFBD005151FC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 74BFAA9A258CCFBB005151FC;
+					};
+					74BFAABB258CCFBD005151FC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 74BFAA9A258CCFBB005151FC;
+					};
+				};
+			};
+			buildConfigurationList = 74BFAA96258CCFBB005151FC /* Build configuration list for PBXProject "PirateShips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74BFAA92258CCFBB005151FC;
+			productRefGroup = 74BFAA9C258CCFBB005151FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74BFAA9A258CCFBB005151FC /* PirateShips */,
+				74BFAAB0258CCFBD005151FC /* PirateShipsTests */,
+				74BFAABB258CCFBD005151FC /* PirateShipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74BFAA99258CCFBB005151FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743CF2F7258CEDE700C7CBCC /* README.md in Resources */,
+				743CF315258D1F7E00C7CBCC /* Ships.json in Resources */,
+				74BFAAAB258CCFBD005151FC /* LaunchScreen.storyboard in Resources */,
+				74BFAAA8258CCFBD005151FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFAAAF258CCFBD005151FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFAABA258CCFBD005151FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74BFAA97258CCFBB005151FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74198EE52593D33F00E2724E /* PirateShipViewModel.swift in Sources */,
+				74198EDD25937ED300E2724E /* StrechHeaderLayout.swift in Sources */,
+				743CF31E2590BD3B00C7CBCC /* Coordinator.swift in Sources */,
+				74198F2A2599007F00E2724E /* ImageTableViewCellModel.swift in Sources */,
+				74198EB72590FB8500E2724E /* PirateShipModel.swift in Sources */,
+				74198EBE259102EA00E2724E /* PirateShipsListViewModel.swift in Sources */,
+				74BFAAA3258CCFBB005151FC /* PirateShipsListCollectionViewController.swift in Sources */,
+				74198ED82592330D00E2724E /* UIView.swift in Sources */,
+				74198EC22591039500E2724E /* PirateShipService.swift in Sources */,
+				74BFAA9F258CCFBB005151FC /* AppDelegate.swift in Sources */,
+				74198F3A25994A6100E2724E /* UIFont.swift in Sources */,
+				743CF3232590C15700C7CBCC /* PirateShipDetail.swift in Sources */,
+				74198ED4259232EC00E2724E /* UIColor.swift in Sources */,
+				74198ECE25922DF100E2724E /* PirateShipCell.swift in Sources */,
+				747C2DCA259D6A40001801F9 /* GreetingType.swift in Sources */,
+				74198ECF25922DF100E2724E /* PirateShipsListHeader.swift in Sources */,
+				74198F36259927ED00E2724E /* String.swift in Sources */,
+				74198F142594C05700E2724E /* Int.swift in Sources */,
+				74BFAAA1258CCFBB005151FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFAAAD258CCFBD005151FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F0DF61259A59B8003CAF91 /* PirateShipsListViewModelTests.swift in Sources */,
+				746AD4C4259CF79100DA3069 /* MockPirateShipsListViewModel.swift in Sources */,
+				74198F4D259A0BA800E2724E /* TestUtility.swift in Sources */,
+				74F0DF81259A9C39003CAF91 /* IntTest.swift in Sources */,
+				74F0DF7B259A9782003CAF91 /* StringTest.swift in Sources */,
+				74BFAAB6258CCFBD005151FC /* PirateShipViewModelTests.swift in Sources */,
+				747C2DC2259D3524001801F9 /* MockPirateShipViewModel.swift in Sources */,
+				74F0DF6F259A6268003CAF91 /* MockCoordinator.swift in Sources */,
+				74F0DF86259AA09A003CAF91 /* PirateShipModelTest.swift in Sources */,
+				74F0DF6B259A6176003CAF91 /* MockPirateShipService.swift in Sources */,
+				746AD4B2259B964C00DA3069 /* PirateShipDetailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFAAB8258CCFBD005151FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BFAAC1258CCFBD005151FC /* PirateShipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74BFAAB3258CCFBD005151FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74BFAA9A258CCFBB005151FC /* PirateShips */;
+			targetProxy = 74BFAAB2258CCFBD005151FC /* PBXContainerItemProxy */;
+		};
+		74BFAABE258CCFBD005151FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74BFAA9A258CCFBB005151FC /* PirateShips */;
+			targetProxy = 74BFAABD258CCFBD005151FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74BFAAA9258CCFBD005151FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BFAAAA258CCFBD005151FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		747C2DAD259D26CD001801F9 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TEST;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Test;
+		};
+		747C2DAE259D26CD001801F9 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D73YD8C54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetworkFramework/NetworkFramework",
+				);
+				INFOPLIST_FILE = PirateShips/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		747C2DAF259D26CD001801F9 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PirateShipsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateShips.app/PirateShips";
+			};
+			name = Test;
+		};
+		747C2DB0259D26CD001801F9 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PirateShipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PirateShips;
+			};
+			name = Test;
+		};
+		74BFAAC3258CCFBD005151FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74BFAAC4258CCFBD005151FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74BFAAC6258CCFBD005151FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D73YD8C54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetworkFramework/NetworkFramework",
+				);
+				INFOPLIST_FILE = PirateShips/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74BFAAC7258CCFBD005151FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D73YD8C54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetworkFramework/NetworkFramework",
+				);
+				INFOPLIST_FILE = PirateShips/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74BFAAC9258CCFBD005151FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PirateShipsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateShips.app/PirateShips";
+			};
+			name = Debug;
+		};
+		74BFAACA258CCFBD005151FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PirateShipsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateShips.app/PirateShips";
+			};
+			name = Release;
+		};
+		74BFAACC258CCFBD005151FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PirateShipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PirateShips;
+			};
+			name = Debug;
+		};
+		74BFAACD258CCFBD005151FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PirateShipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gc.PirateShipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PirateShips;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74BFAA96258CCFBB005151FC /* Build configuration list for PBXProject "PirateShips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BFAAC3258CCFBD005151FC /* Debug */,
+				747C2DAD259D26CD001801F9 /* Test */,
+				74BFAAC4258CCFBD005151FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BFAAC5258CCFBD005151FC /* Build configuration list for PBXNativeTarget "PirateShips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BFAAC6258CCFBD005151FC /* Debug */,
+				747C2DAE259D26CD001801F9 /* Test */,
+				74BFAAC7258CCFBD005151FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BFAAC8258CCFBD005151FC /* Build configuration list for PBXNativeTarget "PirateShipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BFAAC9258CCFBD005151FC /* Debug */,
+				747C2DAF259D26CD001801F9 /* Test */,
+				74BFAACA258CCFBD005151FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BFAACB258CCFBD005151FC /* Build configuration list for PBXNativeTarget "PirateShipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BFAACC258CCFBD005151FC /* Debug */,
+				747C2DB0259D26CD001801F9 /* Test */,
+				74BFAACD258CCFBD005151FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74BFAA93258CCFBB005151FC /* Project object */;
+}

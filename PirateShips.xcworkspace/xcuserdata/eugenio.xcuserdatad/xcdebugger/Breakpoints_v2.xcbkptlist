@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B718D7CA-521B-411E-AE79-89D6E69561F0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "4ADCD0C4-8441-4AF1-8134-1C8AB11C4F79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AED4429-B51C-4572-B0B1-952FD8F60FFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkFramework/NetworkFrameworkTests/Mocks/MockURLSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "dataTask(with:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B1DA728-6ACD-495A-A77C-B6BFCA16A0FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkFramework/NetworkFrameworkTests/HttpClientTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "test_when_request_succeed_returns_data()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7384585-D91B-4ED6-B8E1-83C185EEE041"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkFramework/NetworkFrameworkTests/HttpClientTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "test_when_request_succeed_returns_data()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7384585-D91B-4ED6-B8E1-83C185EEE041 - ba55412892d4b64b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkFrameworkTests.HttpClientTests.test_when_request_succeed_returns_data() throws -&gt; ()"
+                  moduleName = "NetworkFrameworkTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugenio/Downloads/PirateShips/NetworkFramework/NetworkFrameworkTests/HttpClientTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1246">
+               </Location>
+               <Location
+                  uuid = "E7384585-D91B-4ED6-B8E1-83C185EEE041 - 2679d65ae4d97ac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, NetworkFramework.HttpClientError&gt;) -&gt; () in NetworkFrameworkTests.HttpClientTests.test_when_request_succeed_returns_data() throws -&gt; ()"
+                  moduleName = "NetworkFrameworkTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugenio/Downloads/PirateShips/NetworkFramework/NetworkFrameworkTests/HttpClientTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
